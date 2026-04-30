@@ -1,0 +1,7 @@
+aula 08
+
+
+
+"W" cria o arquivo, caso já exista ele substitui.
+"A" append, adiciona ao final. importante usar \n
+"encoding" tipo de linguagem
