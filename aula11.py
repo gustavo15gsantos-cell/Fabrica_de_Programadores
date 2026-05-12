@@ -1,14 +1,56 @@
-numero = int(input("digite um número: ")) #recebe um numero inteiro
-inicio = int(input("digite o ínicio da tabuada; ")) #recebe um numero inteiro para a tabuada
-fim = int(input("digite o fim da tabuada: ")) #numero atá onde a atbuada vai
+#revisão
 
-for i in range(inicio, fim +1): #
-    print(f"{numero} x {i} = {numero * i } ") #mostra a tabuada
+#o que são variaveis?
+#a = 10
+#b = 20
+
+#print(a+b)
+
+#pergunta 01
+
+#lista = ["vanessão","carlota","enzo do pix"]
+
+#x = input("digite seu nome:\n")
+
+#if x in lista:
+#    print("seu nome esta na lista.....")
+
+#else:
+#    print("seu nome não esta na lista!!!!!!!!")
 
 
-    #------------------------------------------------------------------#
-    
-    #explicação
-    #lista = ["vanessa","carla"]
-    #for x in lista:
-        #print(f"olá {x}")1
+
+
+#========================================================================================================
+#pergunta 02
+
+#idade = int(input("digite sua idade para votar\n"))
+
+#if idade >=16:
+#   print("você pode votar. ")
+
+#else :
+#   print("você não pode votar !!!!!!!!")
+
+
+
+#===========================================================================================================
+#pergunta 03 
+
+#minha_garagem = ["bmw","mercedes-bens","audi","aston martin"]
+#preco = [35000, 40000, 20000,80000]
+
+estoque = ["chevy","fiat","peugeot","VolksWagem","lexus","ferrari",]
+preco_loja = [1000,500,1.99,20000,60000,90000]
+
+loja_barato = []  # abaixo de 20 mil
+loja_caro = []    # acima de 20 mil
+
+
+i = 0 
+for preco in preco_loja:
+    if preco >=20000:
+        loja_caro.append(estoque[i])
+else:
+        loja_barato.append(estoque[i])
+i = i +1
